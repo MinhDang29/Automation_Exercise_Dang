@@ -22,10 +22,10 @@ public class Baitap1_13 {
             String searchFieldLocator = " (//input[@name='s'])[1]";// Search
             String cartLocator = "(//i[contains(@class,'fa-shopping-basket')]/..)[1]";//cart
 
-            System.out.println("CSS Locator for email field is: " + registerEmailFieldLocator);
-            System.out.println("CSS Locator for submit button is: " + registerButtonLocator);
-            System.out.println("CSS Locator for logout button is: " + logoutButtonLocator);
-            System.out.println("CSS Locator for search field is: " + searchFieldLocator);
-            System.out.println("CSS Locator for cart is: " + cartLocator);
+            System.out.println("XPath Locator for email field is: " + registerEmailFieldLocator);
+            System.out.println("XPath Locator for submit button is: " + registerButtonLocator);
+            System.out.println("XPath Locator for logout button is: " + logoutButtonLocator);
+            System.out.println("XPath Locator for search field is: " + searchFieldLocator);
+            System.out.println("XPath Locator for cart is: " + cartLocator);
         }
     }

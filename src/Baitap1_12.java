@@ -3,9 +3,13 @@ public class Baitap1_12 {
         String registerEmailFieldLocator = "#reg_email"; //register email
         String registerButtonLocator = "button[name='register']";// button register
         String logoutButtonLocator = ".woocommerce-MyAccount-navigation-link--customer-logout a"; //logout
+        // nav.woocommerce-MyAccount-navigation li:nth-of-type(6) a
+        // parentLocator child:nth-of-type(?)
         String searchFieldLocator = "div.hidden-xs span > input";// Search
-        String cartLocator = ".d-table-cell.link-cart a";//cart
 
+        String cartLocator = ".d-table-cell.link-cart a";//cart
+        // div.d-table-cell.link-cart>a
+        //parentLocator > childLocator
         System.out.println("CSS Locator for email field is: " + registerEmailFieldLocator);
         System.out.println("CSS Locator for submit button is: " + registerButtonLocator);
         System.out.println("CSS Locator for logout button is: " + logoutButtonLocator);

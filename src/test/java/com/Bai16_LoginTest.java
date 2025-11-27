@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import com.utils.BasicTest;
 import com.utils.Utils;
-
+// chạy test
 public class Bai16_LoginTest extends BasicTest {
     @Test()
     public void loginTestSuccess() throws Exception {

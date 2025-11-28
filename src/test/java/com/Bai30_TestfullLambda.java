@@ -62,9 +62,8 @@ public class Bai30_TestfullLambda extends BasicTest {
         addEmployee.clickSave();
         
         // search name using DashboardPage helper
-        String fName = addEmployee.getFirstNameValue();
-        String lName = addEmployee.getLastNameValue();
-        String fullName = (fName + " " + lName).trim();
+        // Use the known values we just entered to avoid empty-read race conditions
+        String fullName = "Nguyen Dang";
         System.out.println("Tên cần tìm hover: " + fullName);
 
         dashboard.searchByName("Dang");

@@ -3,8 +3,8 @@
 <suite thread-count="1" parallel="tests" name="DemoSuite">
     <test thread-count="1" parallel="classes" name="DemoTest">
         <parameter name="browser" value="chrome"/>
-        <classes>
-            <class name="com.RunCucumberTest" />
-        </classes>
+        <packages>
+            <package name="com" />
+        </packages>
     </test>
 </suite> <!-- Suite -->

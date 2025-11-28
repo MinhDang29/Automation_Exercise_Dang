@@ -47,13 +47,13 @@ public class Bai1_WebDriver extends BasicTest {
         // lấy cookie
         driver.manage().getCookies();
 
-        // switch to
+        // switch to alert
         driver.switchTo().alert();
 
-        // switch to
+        // switch to window
         driver.switchTo().window(" ");
 
-        // switch to
+        // switch to frame
         driver.switchTo().frame(" ");
 
         // đóng driver
